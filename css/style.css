@@ -80,7 +80,9 @@ legend {
 
 .inputs {
   font-family: "Urbanist", sans-serif;
+  border-radius: 5px;
 }
+
 
 fieldset {
   font-family: "Urbanist", sans-serif;
