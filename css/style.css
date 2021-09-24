@@ -81,8 +81,25 @@ legend {
 .inputs {
   font-family: "Urbanist", sans-serif;
   border-radius: 5px;
+  padding: 5px;
 }
 
+
+@keyframes inputRadio{
+  0%{
+    transform: rotate(0) scale(1);
+  }
+  50%{
+    transform: rotate(360deg) scale(1.5);
+  }
+  100%{
+    transform: rotate(0) scale(1);
+  }
+}
+
+.idade input{
+  animation: inputRadio 3s infinite;
+}
 
 fieldset {
   font-family: "Urbanist", sans-serif;
